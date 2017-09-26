@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">EventosApp</string>
     <string name="mi_mensaje">Hola Android App !</string>
+    <string name="mi_boton">Saluda</string>
 </resources>
