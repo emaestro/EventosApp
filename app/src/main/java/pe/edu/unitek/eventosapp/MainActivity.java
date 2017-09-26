@@ -1,5 +1,6 @@
 package pe.edu.unitek.eventosapp;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mi_boton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                mi_texto.setTextColor(Color.RED);
             }
         });
     }
